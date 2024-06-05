@@ -1,5 +1,6 @@
 import React from 'react'
 import Card from './Components/Card'
+import Form from "./Components/Form"
 import users from './data'
 
 // import css
@@ -16,9 +17,11 @@ function App() {
         <h1>Code from app component</h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, debitis!</p>
 
-        <Counter />
+        <Form />
 
-        {users.map((user, i) => <Card key={i} description={user.description} email={user.email} phone={user.phone} name={user.name} />)}
+        {/* <Counter />
+
+        {users.map((user, i) => <Card key={i} description={user.description} email={user.email} phone={user.phone} name={user.name} />)} */}
 
 
     </div>
